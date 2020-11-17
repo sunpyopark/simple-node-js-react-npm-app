@@ -1,3 +1,4 @@
+pipeline
 node {
     def app
 
@@ -30,4 +31,5 @@ node {
             app.push("latest")
         }
     }
+}
 }
